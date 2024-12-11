@@ -47,10 +47,6 @@ function FeaturedWorks() {
 
   return (
     <div className="featured-container">
-      <div className="side-buttons">
-        <button className="btn btn-main mb-2">도서</button>
-        <button className="btn btn-secondary">웹툰</button>
-      </div>
       <div
         className="featured-works"
         ref={containerRef}
